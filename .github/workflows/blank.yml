@@ -17,4 +17,4 @@ jobs:
 
     steps:
       - run: |
-          xcode-select
+          xcode-select --print-path

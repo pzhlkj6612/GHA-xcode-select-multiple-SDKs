@@ -18,3 +18,5 @@ jobs:
     steps:
       - run: |
           xcode-select --print-path
+          
+      - run: tree /Applications/

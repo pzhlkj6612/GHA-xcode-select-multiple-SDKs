@@ -18,7 +18,69 @@ jobs:
     steps:
       - run: |
           xcode-select --print-path
-          
-      - run: brew install tree
-          
-      - run: tree /Applications/
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.3.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.2.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.1.1.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.1.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.7.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.6.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.5.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.4.1.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.3.1.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_11.2.1.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_10.3.app'
+          xcode-select --print-path
+          clang++ -v
+
+      - run: |
+          xcode-select --switch '/Applications/Xcode_12.4.app'
+          xcode-select --print-path
+          clang++ -v

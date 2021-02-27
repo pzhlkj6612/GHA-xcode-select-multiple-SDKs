@@ -12,7 +12,7 @@ jobs:
   xcode_select:
     strategy:
       matrix:
-        macos_version: [10.15, 11.0]
+        macos_version: ["10.15", "11.0"]
     runs-on: macos-${{ matrix.macos_version }}
 
     steps:
